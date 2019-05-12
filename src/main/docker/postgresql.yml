@@ -3,9 +3,9 @@ services:
     menauaa-postgresql:
         image: postgres:10.4
         # volumes:
-        #     - ~/volumes/jhipster/MenaUaa/postgresql/:/var/lib/postgresql/data/
+        #     - ~/volumes/jhipster/MenaUAA/postgresql/:/var/lib/postgresql/data/
         environment:
-            - POSTGRES_USER=MenaUaa
+            - POSTGRES_USER=MenaUAA
             - POSTGRES_PASSWORD=
         ports:
             - 5432:5432

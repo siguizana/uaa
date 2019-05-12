@@ -1,7 +1,7 @@
 {
     "name": "mena-uaa",
     "version": "0.0.0",
-    "description": "Description for MenaUaa",
+    "description": "Description for MenaUAA",
     "private": true,
     "license": "UNLICENSED",
     "cacheDirectories": [

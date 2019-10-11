@@ -34,9 +34,9 @@ spring:
             enabled: false
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:postgresql://localhost:5432/MenaUAA
-        username: MenaUAA
-        password:
+        url: jdbc:postgresql://localhost:5432/sigecdb
+        username: sigec
+        password: 20sigec19
         hikari:
             poolName: Hikari
             auto-commit: false
@@ -54,8 +54,10 @@ spring:
             hibernate.cache.hazelcast.instance_name: MenaUAA
             hibernate.cache.use_minimal_puts: true
             hibernate.cache.hazelcast.use_lite_member: true
+            hibernate.default_schema: uaa
     liquibase:
-        contexts: prod
+        contexts: prod,
+        default_schema: uaa
     mail:
         host: localhost
         port: 25
